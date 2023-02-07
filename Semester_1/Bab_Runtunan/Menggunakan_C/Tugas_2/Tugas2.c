@@ -1,0 +1,1 @@
+// PROGRAM mengitung durasi
