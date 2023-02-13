@@ -1,0 +1,19 @@
+ALGORITMA "Konversi detik"
+{Algoritma ini berguna untuk mengkonversikan detik ke dalam hari, jam, menit, detik}
+
+DEKLARASI
+hari      : Integer
+jam       : Integer
+menit     : Integer
+detik     : Integer
+sisaDetik : Integer
+
+ALGORITMA
+- read(detik)
+- hari = detik / 86400
+- sisaDetik = detik % 86400
+- jam = sisaDetik / 3600
+- sisaDetik = sisaDetik % 3600
+- menit = sisaDetik / 60
+- detik = sisaDetik % 60
+- write(hari, jam, menit, detik)
