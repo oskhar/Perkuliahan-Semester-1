@@ -1,0 +1,22 @@
+ALGORITMA "Selisih tanggal"
+{Algoritma berguna untuk menghitung selisih kedua tanggal yang dimasukan}
+
+DEKLARASI
+hariA          : Integer
+hariB          : Integer
+bulanA         : Integer
+bulanB         : Integer
+tahunA         : Integer
+tahunB         : Integer
+akumulasiHariA : Integer
+akumulasiHariB : Integer
+hasilAkhir     : Integer
+
+ALGORITMA
+- read(hariA, hariB)
+- read(bulanA, bulanB)
+- read(tahunA, tahunB)
+- akumulasiHariA = hariA + bulanA * 30 + tahunA * 365
+- akumulasiHariB = hariB + bulanB * 30 + tahunB * 365
+- hasilAkhir = akumulasiHariA - akumulasiHariB
+write(hasilAkhir)
