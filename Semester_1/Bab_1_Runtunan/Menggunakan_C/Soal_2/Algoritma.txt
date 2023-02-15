@@ -1,0 +1,15 @@
+ALGORITMA "Konversi Hari"
+{Algoritma ini berguna untuk mengkonversikan hari ke dalam tahun, bulan, hari}
+
+DEKLARASI
+tahun    : Integer
+bulan    : Integer
+hari     : Integer (Assigment)
+sisaHari : Integer
+
+ALGORITMA
+- tahun = hari / 365
+- sisaHari = hari % 365
+- bulan = sisaHari / 30
+- hari = sisaHari % 30
+- write(tahun, bulan, hari)
