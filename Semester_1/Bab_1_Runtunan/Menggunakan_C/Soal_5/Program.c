@@ -18,6 +18,6 @@ void main () {
     sisaJarak = jarakSemut % 100000;
     m = sisaJarak / 100;
     cm = sisaJarak % 100;
-    printf("x = %i, ini berarti semut menempuh jarak %i + %i + %i", jarakSemut, km, m, cm);
+    printf("x = %i, ini berarti semut menempuh jarak %i + %i + %i\n", jarakSemut, km, m, cm);
 
 }
