@@ -1,0 +1,17 @@
+Algoritma "konversi jarak"
+{Algoritma ini digugnakan untuk mengkonversikan jarak tempuh seekor semut dalam satuan cm}
+
+DEKLARASI
+jarakSemut : Integer
+km         : Integer
+m          : Integer
+cm         : Integer
+sisaJarak  : Integer
+
+ALGORITMA
+- read(jarakSemut)
+- km = jarakSemut / 100000
+- sisaJarak = jarakSemut % 100000
+- m = sisaJarak / 100
+- cm = sisaJarak % 100
+- write(jarakSemut, km, m, cm)
