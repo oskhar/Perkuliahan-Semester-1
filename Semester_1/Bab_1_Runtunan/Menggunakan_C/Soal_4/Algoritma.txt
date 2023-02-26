@@ -2,13 +2,13 @@ Algoritma "membaca nilai uang"
 {Algoritma ini digunakan untuk menentukan berapa nilai tukar pecahan uang dalam kelipatan 25 (Rp1000, Rp500, Rp100, Rp50, Rp25)}
 
 DEKLARASI
-uangInput
-uangSisa
-uangA
-uangB
-uangC
-uangD
-uangE
+uangInput : Integer
+uangSisa  : Integer
+uangA     : Integer
+uangB     : Integer
+uangC     : Integer
+uangD     : Integer
+uangE     : Integer
 
 ALGORITMA
 - read(uangInput)
