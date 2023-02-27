@@ -1,0 +1,14 @@
+Algoritma "Jumlah Penduduk Tahunan"
+{Algoritma ini digunakan untuk menghitung jumlah penduduk suatu negara di tahun tertentu}
+
+DEKLARASI
+jumlahPenduduk  : Integer
+jumlahKelahiran : Integer (Assigment)
+jumlahKematian  : Integer (Assigment)
+imigrasiMasuk   : Integer (Assigment)
+imigrasiKeluar  : Integer (Assigment)
+tahun           : Integer (Assigment)
+
+ALGORITMA
+- jumlahPenduduk = (jumlahKelahiran + imigrasiMasuk) - (jumlahKematian + imigrasiKeluar)
+- write(tahun, jumlahPenduduk)
