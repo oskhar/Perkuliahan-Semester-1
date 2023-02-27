@@ -1,0 +1,11 @@
+Algoritma "Berat Ideal"
+{Algoritma ini digunakan untuk menentukan berat badan ideal seseorang berdasarkan tinggi badan}
+
+DEKLARASI
+tinggiBadan : float (Assigment)
+beratIdeal  : float
+
+ALGORITMA
+- beratIdeal = (tinggiBadan - 100)
+- beratIdeal = beratIdeal - (beratIdeal / 10)
+- write(beratIdeal)
