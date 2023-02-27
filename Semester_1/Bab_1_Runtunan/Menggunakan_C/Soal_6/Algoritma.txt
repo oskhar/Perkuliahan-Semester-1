@@ -1,0 +1,15 @@
+Algoritma "konfigurasi satuan"
+{Algoritma ini digunakan untuk mengkonversikan nilai masukan berupa meter ke dalam satuan ichi, kaki dan yard}
+
+DEKLARASI
+meter : float
+inchi : float
+kaki  : float
+yard  : float
+
+ALGORITMA
+- read(meter)
+- inchi = meter * 0.0254
+- kaki = meter * 0.3048
+- yard = meter * 0.9144
+- write(inchi, kaki, yard)
